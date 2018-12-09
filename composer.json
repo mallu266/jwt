@@ -1,0 +1,26 @@
+{
+    "name": "arjun/jwt",
+    "description": "JWT API Service Provider",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mallikarjun",
+            "email": "mallikarjun266@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ARJUN\\JWT\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ARJUN\\JWT\\JWTSERVICEPROVIDER"
+            ]
+        }
+    }
+}
